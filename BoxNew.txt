@@ -1,0 +1,46 @@
+package HW;
+
+public class BoxNew {
+    int length, width, height;
+
+    public BoxNew(int l, int w, int h) {
+        this(l, w);
+        this.length = l;
+        this.width = w;
+        this.height = h;
+
+        print();
+    }
+
+    public BoxNew(int l, int w) {
+        this(l);
+        this.length = l;
+        this.width = w;
+        height = 301;
+
+        print();
+
+    }
+
+    public BoxNew(int l) {
+        this();
+        this.length = l;
+        width = 202;
+        height = 302;
+
+        print();
+
+    }
+
+    public BoxNew() {
+        length = 103;
+        width = 203;
+        height = 303;
+
+        print();
+    }
+
+    public void print() {
+        System.out.println("length = " + length + ", width = " + width + ",  height = " + height);
+    }
+}
